@@ -19,6 +19,7 @@ const config = {
 		}),
 		paths: {
 			// change below to your repo name
+			// assets: process.env.NODE_ENV !== 'production' ? '' : '/autobase-kit',
 			base: process.env.NODE_ENV !== 'production' ? '' : '/autobase-kit'
 		},
 		vite: {
